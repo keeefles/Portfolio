@@ -44,3 +44,23 @@ body {
 .navbar :hover::before {
         width: 100%;
 }
+
+.rounded-circle {
+    width: 100px;
+}
+
+.p1{
+    margin: 30px;
+    padding: 50px;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: right;
+    padding-right: 100px;
+    
+}
