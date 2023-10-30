@@ -9,3 +9,38 @@
 body {
     font-family: 'Playfair Display', serif;
 }
+
+.logo {
+    width: 100px;
+}
+.nav-item {
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #777;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #777;
+        transition: .4s;
+}
+    
+.navbar :hover::before {
+        width: 100%;
+}
