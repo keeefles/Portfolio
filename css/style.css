@@ -81,12 +81,12 @@ body {
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
     border-radius: 15px;
-    padding: 10px;
-    justify-content: center;
-    left: 20%;
-    position: relative;
+    padding: 30px;
+    text-align: center;
+    justify-content: space-evenly;
     margin-top: 100px;
     float: left;
+    position: relative;
     margin: 10px;
 }
 #font {
@@ -95,4 +95,13 @@ body {
 }
 head {
     text-align: center;
+}
+.footer {
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+}
+#footsy {
+    text-align: center;
+    margin-top: 600px;
 }
