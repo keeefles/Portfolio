@@ -74,5 +74,25 @@ body {
 .center {
     width: 300px;
     border: dotted 7px bisque;
+}
 
+.contact1 {
+    width: 280px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    left: 20%;
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    margin: 10px;
+}
+#font {
+    text-align: center;
+    font-size: small;
+}
+head {
+    text-align: center;
 }
