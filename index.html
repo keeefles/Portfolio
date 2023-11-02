@@ -29,43 +29,35 @@
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#landing">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#box1">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link" href="#box2">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#box3">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#box4">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#box5">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#box6">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    <main class="container-fluid">
-      <section class="container" id="landing"></section>
-      <section class="container" id="about"></section>
-      <section class="container" id="resume"></section>
-      <section class="container" id="skills"></section>
-      <section class="container" id="projects"></section>
-      <section class="container" id="testimonials"></section>
-      <section class="container" id="contact"></section>
-    </main>
+  
     <!-- end of navbar -->
 
 <!-- landing section -->
-<section class="landing">
+<section class="container" id="landing">
 <svg xmLns="http://www.w3.org/2000/svg" xml:Lang="en"
     xmLns: xLink="http://www.w3.org/1999/xLink" viewBox="0 0 500 500">
     <title>Circular text path</title>
@@ -93,9 +85,10 @@
 <!-- end of landing -->
 
 <!-- about section -->
-<section class="container" id="about" >
+<section class="container" id="box1">
   <div class="container p-3">
     <div class="row">
+      <h1 id="heading">About Me</h1>
       <div class="img-col">
         <img src="https://i.postimg.cc/hvbcRtGy/20231101-195430.jpg" alt="image" class="rounded-circle center" align-items="center">
       </div>
@@ -115,9 +108,9 @@
 <!-- end of about page -->
 
 <!-- education section -->
-<section class="education" target="education">
+<section class="container" id="box2">
+  <h1 id="head1">Education</h1>
   <div class="container" id="education">
-    <h1 id="head1">Education</h1>
         <div class="container" id="container1">
           <div class="text-col">
             <div class="contact-box contact1">
@@ -144,17 +137,12 @@
                 </div>
                 </div>
               </div>
-            </div>
-
-            <div class="container-fluid">
-            <ul class="ms-auto mb-2 mb-lg-0">
-              <li class="item">
-                  <a class="link cv" href="/AAKEEFAHS CV.pdf" id="CV">Download CV</a>
-              </li>
-          </ul>
-        </div>
-<!-- end of education section -->
+          </div>
+          </section>
+        <!-- end of education section -->
+        
 <!-- Skills Section -->
+<section class="skills" id="box3">
 <div class="container text-center">
   <h1 class="head4">Skills</h1>
   <div class="row row-cols-4">
@@ -204,11 +192,12 @@
     </div>
   </div>
 </div>
+</section>
 <!-- end of skills section -->
 
 
 <!-- projects section -->
-<section class="container-fluid" id="projects">
+<section class="container-fluid" id="box4">
       <h1 class="">Projects</h1>
 <div class="container text-center">
   <div class="row align-items-start">
@@ -272,18 +261,31 @@
     </div>
   </div>
 </div>
+</section>
 <!-- end of projects section -->
 
 <!-- testimonials section -->
-
-
+<section class="container" id="box5">
+<div class="row">
+  <h1 id="heading">Testimonials</h1>
+  <div class="text-col">
+    <h2>Hello, Aakeefah here. Have a look at </h2>
+    <p id="p1">
+      Get connected with me! <br>
+    </p>
+  </div>
+  <div class="img-col">
+    <img src="https://i.postimg.cc/sxZgB5dh/logo.jpg" alt="image" class="rounded-circle center my-img" id="center1" align-items="center">
+  </div>
+</div>
+</section>
 <!-- contact sections -->
-  <section class="container" id="contact">
+  <section class="container" id="box6">
     <div class="container p-3">
       <header class="header" id="heading"></header>
     <body>
         <main>
-            <h1 id="heading">Contact Us</h1>
+            <h1 id="heading">Contact Me</h1>
                 <div class="contact-box" id="contacty">
             <form>
                 <input type="text" class="input-field" placeholder="Your Name" id="fontsy">
@@ -293,17 +295,6 @@
                 <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
-      <div class="row">
-        <div class="text-col">
-          <h2>Hello, Aakeefah here.</h2>
-          <p id="p1">
-            Full-Stack Developer in training. Based in Cape Town, South Africa.
-          </p>
-        </div>
-        <div class="img-col">
-          <img src="https://i.postimg.cc/sxZgB5dh/logo.jpg" alt="image" class="rounded-circle center my-img" id="center1" align-items="center">
-        </div>
-      </div>
     </div>  
   </section>
 

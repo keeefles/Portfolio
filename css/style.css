@@ -78,10 +78,6 @@ body {
 .center{
     width: 300px;
 }
-.landing{
-    background-color: ;
-}
-
 .contact1 {
     width: 280px;
     background-color: #fff;
@@ -92,7 +88,7 @@ body {
     justify-content: center;
     margin-top: 100px;
     left: 14%;
-    position: relative;
+    position: static;
     float: left;
     margin: 10px;
 }
@@ -176,8 +172,7 @@ svg{
     } 
     from{
     }
-    0
-    {
+    0{
         tr
     }
     25%{
@@ -191,9 +186,7 @@ svg{
 svg:hover .textCircle {
     transform: scale(1.2) rotate(90deg);
 }
-.col2{
-  
-}
+
 
 /* contacts page */
 #contacty {
@@ -251,3 +244,36 @@ svg:hover .textCircle {
     }
 }
 
+#education{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contact-box{
+    margin: 15%;
+}
+#head1{
+    padding-top: 10%;
+}
+.head4{
+    padding-top: 10%;
+}
+#landing {
+    padding-top: 10%;
+}
+#box1{
+    padding-top: 10%;
+}
+#box3 {
+    padding-top: 10%;
+}
+#box4 {
+    padding-top: 10%;
+}
+#box5 {
+    padding-top: 10%;
+}
+#box6 {
+    padding-top: 10%;
+}
