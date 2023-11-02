@@ -71,12 +71,9 @@ body {
     flex-basis: 50%;
     margin-bottom:20px;
 }
-#center1 {
-    width: 300px;
-    border: dotted 7px bisque;
-}
+
 .center{
-    width: 300px;
+    width: 250px;
 }
 .contact1 {
     width: 280px;
@@ -121,9 +118,9 @@ body {
     align-items: center;
     margin-top: 300px;
 }
-.my-img{
+/* .my-img{
     animation: rotateImg 5s linear infinite;
-}
+} */
 @keyframes rotateImg{
 from {
 transform: rotate(0deg);
@@ -139,16 +136,7 @@ transform: rotate(359deg);
     padding-top: 30px;   
 }
 
-#CV {
-    text-align: center;
-    margin-top: 120px;
-    padding: 30px;
-    text-decoration: none;
-}
-/* project */
-#projects :is(.card) {
-    width: 18rem;
-}
+
 
 /* text-circle */
 
@@ -190,15 +178,15 @@ svg:hover .textCircle {
 
 /* contacts page */
 #contacty {
-    width: 400px;
+    width: 380px;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
     display: flex;
     top: 50%;
-    left: 50%;
+    left: 0%;
     text-align: center;
-    align-items: center;
-    transform: translate(-50%, -50%);
+    align-items: right;
+    transform: translate(40%, -50%);
     position: relative;
     margin: 35px;
     margin-top: 230px;
@@ -238,7 +226,7 @@ svg:hover .textCircle {
     margin-bottom: 8px;
 }
 
-@media all and (max-width:200px) { 
+@media all and (min-width:3git 00px) { 
     body{
         background-color: aliceblue;
     }
@@ -254,26 +242,30 @@ svg:hover .textCircle {
     margin: 15%;
 }
 #head1{
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
 }
 .head4{
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
 }
 #landing {
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
 }
 #box1{
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
 }
 #box3 {
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
 }
 #box4 {
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
 }
 #box5 {
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
 }
 #box6 {
-    padding-top: 10%;
+    scroll-margin-block: 5.7rem
+}
+
+#center1 {
+    width: 250px;
 }
