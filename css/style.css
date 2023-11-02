@@ -111,6 +111,7 @@ body {
     margin: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    size: 7rem;
 }
 #font {
     text-align: center;
@@ -124,17 +125,17 @@ body {
     align-items: center;
     margin-top: 300px;
 }
-  .my-img{
+.my-img{
     animation: rotateImg 5s linear infinite;
-  }
-  @keyframes rotateImg{
-    from {
-     transform: rotate(0deg);
-    }
-   to {
-    transform: rotate(359deg);
-   }
-  }
+}
+@keyframes rotateImg{
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(359deg);
+}
+}
 
 .head2 {
     text-align: center;
@@ -190,8 +191,63 @@ svg{
 svg:hover .textCircle {
     transform: scale(1.2) rotate(90deg);
 }
-@media all and (max-width:300px) { 
+.col2{
+  
+}
+
+/* contacts page */
+#contacty {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    position: relative;
+    margin: 35px;
+    margin-top: 230px;
+    margin-bottom: -130px;
+}
+.form {
+    margin: 35px;
+}
+.input-field {
+    width: 350px;
+    height: 35px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #999;
+    border-radius: 14px;
+    outline: none;
+    text-align: center;
+    align-items: center;
+}
+.textarea-field {
+    height: 180px;
+    padding-top: 10px;
+    align-items: center;
+}
+.btn {
+    border-radius: 30px;
+    color: #777;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: bisque;
+    padding-top: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 8px;
+}
+
+@media all and (max-width:200px) { 
     body{
         background-color: aliceblue;
     }
 }
+
