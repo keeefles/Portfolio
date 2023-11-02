@@ -158,8 +158,7 @@ svg{
     to{
         transform: rotate(360deg);
     } 
-    from{
-    }
+    from
     0{
         tr
     }
@@ -168,7 +167,7 @@ svg{
     }
 }
 .textCircle{
-    transition: transform 1s cubic-bezier(0.65, 0, 0.35, 1 );
+    transition: transform 1s cubic-bezier(0.65, 0, 0.35, 1);
     transform-origin: 250px 250px;
 }
 svg:hover .textCircle {
@@ -177,45 +176,34 @@ svg:hover .textCircle {
 
 
 /* contacts page */
-#contacty {
+#contact3 {
     width: 380px;
+    height: 450px;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
     display: flex;
     top: 50%;
     left: 0%;
-    text-align: center;
-    align-items: right;
+    text-align: left;
+    align-items: center;
     transform: translate(40%, -50%);
-    position: relative;
     margin: 35px;
-    margin-top: 230px;
-    margin-bottom: -130px;
-}
-.form {
-    margin: 35px;
-}
-.input-field {
-    width: 350px;
-    height: 35px;
-    margin-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-top: 250px;
     border: 1px solid #999;
-    border-radius: 14px;
+    border-radius: 15px;
     outline: none;
     text-align: center;
     align-items: center;
+
 }
-.textarea-field {
-    height: 180px;
-    padding-top: 10px;
-    align-items: center;
+ .inputbox {
+    height: 35px;
+    margin-top: 15px;
 }
 .btn {
     border-radius: 30px;
     color: #777;
-    margin-top: 8px;
+    margin-top: 20px;
     padding: 10px;
     background-color: bisque;
     padding-top: 12px;
@@ -225,8 +213,12 @@ svg:hover .textCircle {
     transition: .4s;
     margin-bottom: 8px;
 }
+#type {
+    text-align: right;
+    align-items: right;
+}
 
-@media all and (min-width:3git 00px) { 
+@media all and (min-width:320px) { 
     body{
         background-color: aliceblue;
     }
@@ -241,23 +233,21 @@ svg:hover .textCircle {
 .contact-box{
     margin: 15%;
 }
-#head1{
-    scroll-margin-block: 5.7rem
-}
-.head4{
-    scroll-margin-block: 5.7rem
-}
+
 #landing {
     scroll-margin-block: 5.7rem
 }
-#box1{
+#box1 {
     scroll-margin-block: 5.7rem
+}
+#box2 {
+    padding-top: 10%;
 }
 #box3 {
-    scroll-margin-block: 5.7rem
+    padding-top: 5%;
 }
 #box4 {
-    scroll-margin-block: 5.7rem
+    padding-top: 10%;
 }
 #box5 {
     scroll-margin-block: 5.7rem
