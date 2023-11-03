@@ -110,6 +110,7 @@ body {
 #font {
     text-align: center;
     font-size: small;
+    font-style: italic;
 }
 .head {
     text-align: center;
@@ -189,16 +190,16 @@ svg:hover .textCircle {
 }
 
 #landing {
-    scroll-margin-block: 5.7rem
+    scroll-margin-block: 6rem
 }
 #box1 {
-    scroll-margin-block: 5.7rem
+    scroll-margin-block: 6.6rem;
 }
 #box2 {
     padding-top: 10%;
 }
 #box3 {
-    padding-top: 5%;
+    scroll-margin-block: 8rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -207,10 +208,10 @@ svg:hover .textCircle {
     
 }
 #box5 {
-    scroll-margin-block: 5.7rem
+    padding-top: 10%;
 }
 #box6 {
-    scroll-margin-block: 5.7rem
+    padding-top:10%;
 }
 
 #center1 {
@@ -258,6 +259,8 @@ svg:hover .textCircle {
     height:auto;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
+    border-color: #777;
+    border-style: dotted;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
@@ -272,6 +275,7 @@ svg:hover .textCircle {
     height: 841px;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
+    border: #777;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
