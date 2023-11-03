@@ -175,49 +175,6 @@ svg:hover .textCircle {
 }
 
 
-/* contacts page */
-#contact3 {
-    width: 380px;
-    height: 450px;
-    background-color: #fff;
-    box-shadow: 0 0 20px 0 #999;
-    display: flex;
-    top: 50%;
-    left: 0%;
-    text-align: left;
-    align-items: center;
-    transform: translate(40%, -50%);
-    margin: 35px;
-    margin-top: 250px;
-    border: 1px solid #999;
-    border-radius: 15px;
-    outline: none;
-    text-align: center;
-    align-items: center;
-
-}
- .inputbox {
-    height: 35px;
-    margin-top: 15px;
-}
-.btn {
-    border-radius: 30px;
-    color: #777;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: bisque;
-    padding-top: 12px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-    transition: .4s;
-    margin-bottom: 8px;
-}
-#type {
-    text-align: right;
-    align-items: right;
-}
-
 @media all and (min-width:320px) { 
     body{
         background-color: aliceblue;
@@ -228,10 +185,6 @@ svg:hover .textCircle {
     height: 40vh;
     display: flex;
     justify-content: space-around;
-    
-}
-.contact-box{
-    margin: 15%;
 }
 
 #landing {
@@ -258,4 +211,45 @@ svg:hover .textCircle {
 
 #center1 {
     width: 250px;
+}
+.form-label {
+    text-align: center;
+    align-items: left;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.btn {
+    border-radius: 30px;
+    color: #000;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: bisque;
+    padding-top: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 8px;
+}
+#contact4 {
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    margin: 10px;
+}
+#contact3 {
+    width: 350px;
+    height:auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    margin: 10px;
 }
