@@ -254,7 +254,7 @@ svg:hover .textCircle {
     margin-right: auto;
 }
 #contact3 {
-    width: 350px;
+    width: 300;
     height:auto;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
@@ -268,8 +268,8 @@ svg:hover .textCircle {
     margin: 10px;
 }
 #contact5 {
-    width: 350px;
-    height:auto;
+    width: 300px;
+    height: 841px;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
     border-radius: 15px;
@@ -295,4 +295,23 @@ svg:hover .textCircle {
 .p-3{
     margin-left: auto;
     margin-right: auto;
+}
+.img-2 {
+    height: 393px;
+}
+.img-1{
+    height: 199px;
+}
+.img-3{
+    width: 250px;
+    height: 300px;
+}
+#landing-image{
+    position: absolute;
+    border-radius: 50%;
+    top: 260px;
+    right: 643px;
+    width: 230px;
+    height: auto;  
+    z-index: -1;
 }
